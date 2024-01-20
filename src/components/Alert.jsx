@@ -1,7 +1,9 @@
-const Alert = () => {
-  return (
-    <div>Alert</div>
-  )
-}
+const Alert = ({color, msg}) => {
 
-export default Alert
+    return (
+      <div className={`alert ${color}`}>
+        {msg}
+      </div>
+    )
+  }
+  export default Alert
