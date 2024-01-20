@@ -98,7 +98,7 @@ const Formulario = ({setAlert}) => {
       />
     </Form.Group>
   
-    <Button variant="success" type="submit">
+    <Button className="btn" variant="success" type="submit">
       Registrarse
     </Button>
   </Form>
