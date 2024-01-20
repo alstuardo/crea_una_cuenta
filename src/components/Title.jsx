@@ -1,6 +1,6 @@
 const Title = () => {
   return (
-    <h1>Crea tu cuenta</h1>
+    <h1 className="title">Crea tu cuenta</h1>
   )
 }
 
