@@ -1,8 +1,6 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-const SocialButton = () => {
+const SocialButton = ({logo}) => {
   return (
-    <div>SocialButton</div>
+    <button>{logo}</button>
   )
 }
 
