@@ -1,6 +1,9 @@
+import Button from 'react-bootstrap/Button'
+import './SocialButton.css'
+
 const SocialButton = ({logo}) => {
   return (
-    <button>{logo}</button>
+    <Button>{logo}</Button>
   )
 }
 
